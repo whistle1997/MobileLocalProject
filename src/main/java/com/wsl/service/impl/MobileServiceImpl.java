@@ -28,4 +28,10 @@ public class MobileServiceImpl implements MobileService {
 		return info;
 	}
 
+	@Override
+	public void test1() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
