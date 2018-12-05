@@ -11,4 +11,6 @@ public interface MobileService {
 	@Path("/get/{nuwnum}")
 	@Produces({MediaType.APPLICATION_JSON})
 	public String getOneByMobileNumber(@PathParam("nuwnum")String nuwnum);
+
+	public void test1();
 }
