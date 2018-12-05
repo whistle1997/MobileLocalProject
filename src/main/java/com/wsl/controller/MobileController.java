@@ -26,4 +26,9 @@ public class MobileController {
 		return rd;
 	}
 	
+	
+	public String TestThis(String num){
+		return num;
+	}
+	
 }
